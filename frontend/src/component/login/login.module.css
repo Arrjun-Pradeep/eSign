@@ -1,0 +1,132 @@
+.bigDIV {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    /* margin-bottom: 2rem */
+}
+
+.mainDiv {
+    /* margin:auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    /* margin-bottom:2rem; */
+}
+
+.Welcome {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-family: 'Iceland', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registerLink {
+    text-decoration: none;
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 14px;
+    /* line-height: 18px;    */
+    color: #81FFAD;
+    margin-left: 0.3rem;
+    margin-top: 1.2rem;
+    /* font-family:"gilroy"; */
+
+}
+
+.textAccount {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    /* line-height: 18px;    */
+    color: #A0A0A0;
+    margin-left: 0.3rem;
+    margin-top: 0.8rem;
+    /* font-family:"gilroy"; */
+
+}
+
+.btnLogin {
+    background: #81FFAD;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    width: 360px;
+    border: 2px solid black;
+    font-family: 'Iceland', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-top: 1rem;
+    font-size: 16px;
+    margin-right: 1rem
+}
+
+.inputLogin {
+    background: rgba(217, 217, 217, 0.12);
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+    color: white;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 1.1rem;
+    font-size: 18px;
+    font-family: 'Iceland', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputLogin::placeholder {
+    color: white;
+    padding: 1rem;
+    font-size: 14px;
+    font-family: 'Iceland', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.forgetLogin {
+    color: #81FFAD;
+    font-size: 14px;
+    /* font-family: "gilroy"; */
+    text-decoration: none;
+    font-family: 'Iceland', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction:column;
+}
+
+.green {
+    background: #81FFAD;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    width: 360px;
+    border: 2px solid black;
+    font-family: 'Iceland', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.account {
+    font-size:14px;
+}
+
+.formikLogin {
+    border: 1px solid white;
+    padding: 1.5rem;
+    border-radius: 12px;
+
+}
+.spanOR{
+    color:#A0A0A0;
+    font-size: 14px;
+}
+.divSpan{
+    margin-top:0.7  rem; 
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.img{
+    width:100px;
+    height:80px;
+    margin:0.8rem;
+    margin-left:2rem;
+}
+.mainDiv{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+}

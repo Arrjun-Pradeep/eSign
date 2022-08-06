@@ -1,0 +1,99 @@
+.mainDiv {
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    height: 300px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 8px 15px rgba(63, 58, 58, 0.2);
+    border-radius: 10px
+}
+
+.mainDiv:hover {
+    box-shadow: 0px 15px 20px rgba(123, 131, 128, 0.4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+
+.allDivs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    height: -moz-available;
+}
+
+.mainBtn {
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    height: 300px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 8px 15px rgba(63, 58, 58, 0.2);
+    border-radius: 10px
+}
+
+.mainBtn:hover {
+    box-shadow: 0px 15px 20px rgba(123, 131, 128, 0.4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    font-size: 1rem;
+    margin-top: 5rem;
+    font-weight: 600;
+    background-color: #81FFAD;
+    border-radius: 8px;
+}
+
+.map {
+    border: 1px solid white;
+    width: 83%;
+    margin: auto;
+    margin-top: 4rem;
+    height: 300px;
+    /* padding: 1rem */
+}
+
+.mapDiv {
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.spans{
+    width:25%;
+    text-align: center;
+}
+.static{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    color:white;
+    border-bottom:2px solid white;
+    text-align: center;
+    padding:1rem;
+}
+.span{
+    width:25%;
+    text-align: center;
+}
